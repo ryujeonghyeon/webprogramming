@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+.black{
+    width: 50%;
+    height: 600px;
+    background: black;
+    position: relative;
+}
+.overlay{
+    width: 50%;
+    /* display: block; */
+    height: 100%;
+    color: red;
+    position: absolute;
+    font-size: 100px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.textoverlay{
+    /* display: block; */
+    width: 50%;
+    height: 50%;
+    color: red;
+    position: absolute;
+    position: relative;
+    font-size: 100px;
+    top: 0;
+    left: 0;
+    transition: 4s ease;
+    z-index: 100;
+    
+}
+.purple{
+    width: 50%;
+    height: 600px;
+    background: purple;
+    position: relative;
+}
