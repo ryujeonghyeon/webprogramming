@@ -5,4 +5,4 @@ $(".textoverlay").mouseenter(function(){
 }).mouseleave(function(){
     console.log("1111");
     $(".textoverlay").css({"visibility":"visible", "color":"blue","transform":"translateY(0%)"});
-})
+}) 
